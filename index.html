@@ -2,86 +2,121 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slime Punk</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header id="header">
-        <a href="/">
-            <img src="img/icon.png" alt="Logo Slime Punk" id="logo">
-        </a>
-        <h1 id="title">Slime Punk</h1>
-        <div id="dev_buttons">
-            <a href="bello/"><img src="img/bello.png" alt="Bello"></a>
-            <a href="baldeos/"><img src="img/baldéos.webp" alt="Baldéos"></a>
+    <header>
+        <div id="top_bar">
+            <a href="index.html">
+                <img src="img/icon.png" alt="Logo de Slime Punk" id="logo">
+            </a>
+            <nav id="header_nav">
+                <ul>
+                    <li><a href="news/index.html" class="header_nav_button"><p>Actualités</p></a></li>
+                    <li><a href="contact/index.html" class="header_nav_button"><p>Nous contacter</p></a></li>
+                    <li><a href="galery/index.html" class="header_nav_button"><p>Galerie</p></a></li>
+                </ul>
+            </nav>
+            <a href="login/index.html" class="header_nav_button">
+                <p id="login">Connexion</p>
+            </a>
         </div>
     </header>
-    <main id="main">
-        <div id="presentation">
-            <h1 id="salution">Salution</h1>
-            <p>Nous sommes Slime Punk, et on est une petite team de game dev indépendante. On combine des slimes et le steam punk pour offrir des jeux de qualité toujours meilleurs que Steal a Brainrot. On a pour ambition de sortir un jeu sur Steam.</p>
-            <p>Nous sommes composés de 2 personnes : Bello, qui se charge du code, de la musique, et de la plupart des SFX, et Baldéos qui fait les graphismes, une bonne partie de l'histoire et les modèles 3D.</p>
-            <p>Voici quelques-uns de nos projets :</p>
+    <main>
+        <div id="intro">
+            <h1 id="slimepunk_title">Slime Punk</h1>
+            <div id="dev_team">
+                <ul>
+                    <li><div id="introduction">
+                        <h1 class="salution">Salution</h1>
+                        <p>Nous sommes Slime Punk, et on est une petite team de game dev indépendante. On combine des slimes et le steam punk pour offrir des jeux de qualité toujours meilleurs que Steal a Brainrot. On a pour ambition de sortir un jeu sur Steam.</p>
+                        <p>Nous sommes composés de 3 personnes : Bello, qui se charge du code, de la musique, de certains graphismes, de l'histoire et de la plupart des SFX, Anael qui fait un peu de code et d'art, et cosmo qui fait le montage des vidéos.</p>
+                        <p>Voici quelques-uns de nos projets :</p>
+                    </div></li>
+                    <li id="pp_li"><img src="img/PP.png" alt="Membres de Slime Punk" id="pp"></li>
+                </ul>
+            </div>
         </div>
         <div id="projects">
-            <div id="slimepunk_projects">
-                <h1 class="project_category_title">Projets Slime Punk</h1>
-                <a href="projects/lddslpfdsc/">
-                    <div class="project" id="lddslpfdsc">
-                        <h2 class="project_title">La Déchéance du Slime le plus Faible de SlimeCity</h2>
-                        <img src="img/screens/lddslpfdsc1.png" alt="Screenshot de LDDSLPFDSC" class="project_image">
-                        <p class="project_description">
-                            Un jeu de combat mélangeant Hadès et Ultrakill pour un combat 2D dynamique et rapide
-                        </p>
-                        <p class="project_completion">Complétion estimée : 10%</p>
-                    </div>
-                </a>
-                <a href="projects/lddslpfdsc-jam/">
-                    <div class="project" id="lddslpfdsc_jam">
-                        <h2 class="project_title">La Déchéance du Slime le plus Faible de SlimeCity (jam edition)</h2>
-                        <img src="img/screens/lddslpfdsc_jam1.png" alt="Couverture de LDDSLPFDSC jam edition" class="project_image">
-                        <p class="project_description">
-                            Jeu créé pour la Baudo's Jam Automn 2025 edition. Prédécesseur de LDDSLPFDSC, le jeu est arrivé 12ème selon le vote et 4ème selon le grand Baudo
-                        </p>
-                        <p class="project_completion">Complétion estimée : 100%</p>
-                    </div>
-                </a>
-                <a href="projects/sslodlt-jam/">
-                    <div class="project" id="sslodlt-jam">
-                        <h2 class="project_title">Slime Stories: L'œil de la tempête (jam edition)</h2>
-                        <img src="img/screens/sslodlt_jam1.png" alt="Couverture de SSLODLT jam edition" class="project_image">
-                        <p class="project_description">
-                            Jeu créé pour la Baudo's Jam Winter 2026 edition. C'est un JRPG dans lequel on incarne un équipage de pirates échoués sur une île corrompue. Le jeu est arrivé 8ème selon les votes et 7ème selon le pas grand Baudo parce qu'il y a joué 5 minutes
-                        </p>
-                        <p class="project_completion">Complétion estimée : 100%</p>
-                    </div>
+            <h1 class="project_category_title">Projets Slime Punk</h1>
+            <div class="project">
+                <a href="projects/lddslpfdsc/index.html">
+                    <h2 class="title_project">La Déchéance du Slime le plus Faible de SlimeCity</h2>
+                    <img src="img/LDDSLPFDSC/lddslpfdsc1.png" alt="Screenshot de LDDSLPFDSC">
+                    <p class="description_project">
+                        Un jeu de combat mélangeant Hadès et ULTRAKILL pour un combat 2D dynamique et rapide
+                    </p>
+                    <p class="completion_project">Complétion estimée : 10%</p>
                 </a>
             </div>
-            <div id="bellos_projects">
-                <h1 class="project_category_title">Bazar de Bello</h1>
-                    <a href="bello/bellobot/">
-                        <div class="project" id="bellobot">
-                            <h2 class="project_title">BelloBot</h2>
-                            <img src="img/BelloBot.png" alt="Logo de BelloBot" class="project_image">
-                            <p class="project_description">
-                                Un bot discord polyvalent mais dont la feature principale est un chatbot gratuit et illimité (et aussi con mais faut pas dire). Son but ? Avoir le plus de commandes et de features possibles et imaginables
-                            </p>
-                            <p class="project_completion">Complétion estimée : 0.00000000000000001%</p>
-                        </div>
-                    </a>
-                    <a href="bello/sby/">
-                        <div class="project" id="sby">
-                            <h2 class="project_title">ScientifiBot Y</h2>
-                            <img src="img/Scientifiborg_Y.webp" alt="Logo de ScientifiBot Y" class="project_image">
-                            <p class="project_description">
-                                Un bot discord pour gamble des yo-kais. Le bot n'appartient pas à Bello, il l'héberge et y contribue vaguement
-                            </p>
-                            <p class="project_completion">Complétion estimée : Aucune idée</p>
-                        </div>
-                    </a>
+            <div class="project">
+                <a href="projects/lddslpfdsc-jam/index.html">
+                <h2 class="title_project">La Déchéance du Slime le plus Faible de SlimeCity (jam edition)</h2>
+                <img src="img/LDDSLPFDSC_JAM/font_LDDSLPFDSC.png" alt="Couverture de LDDSLPFDSC jam edition">
+                <p class="description_project">
+                    Jeu créé pour la Baudo's Jam Automn 2025 edition. Prédécesseur de LDDSLPFDSC, le jeu est arrivé 12ème selon le vote et 4ème selon le grand Baudo
+                </p>
+                <p class="completion_project">Complétion estimée : 100%</p>
+                </a>
+            </div>
+            <div class="project">
+                <a href="projects/sslodlt/index.html">
+                <h2 class="title_project">Slime Stories: L'œil de la tempête (jam edition)</h2>
+                <img src="img/SSLODLT_JAM/sslodlt.png" alt="Couverture de SSLODLT jam edition">
+                <p class="description_project">
+                     Jeu créé pour la Baudo's Jam Winter 2026 edition. C'est un JRPG dans lequel on incarne un équipage de pirates échoués sur une île corrompue. Le jeu est arrivé 8ème selon les votes et 7ème selon le pas grand Baudo parce qu'il y a joué 5 minutes
+                </p>
+                <p class="completion_project">Complétion estimée : 100%</p>
+                </a>
             </div>
         </div>
-    </main>
+    </main> 
+    <footer>
+        <img src="img/icon.png" alt="logo" id="footer_logo">
+        <div id="footer_grid">
+            <div id="quick_links">
+                <h3 class="footer_section_title">LIENS RAPIDES</h3>
+                <div id="quick-links-columns">
+                    <a href="index.html">ACCUEIL</a>
+                    <a href="news/index.html">ACTUALITÉS</a>
+                    <a href="contact/index.html">CONTACT</a>
+                    <a href="galery/index.html">GALERIE</a>
+                    <a href="team/index.html">NOTRE ÉQUIPE</a>
+                    <a href="partners/index.html">PARTENAIRES</a>
+                </div>
+            </div>
+            <div class="vertical_separator"></div>
+            <div id="footer_contact">
+                <h3 class="footer_section_title">NOUS CONTACTER</h3>
+                <ul id="contact_list">
+                    <li class="contact_item">
+                        <img src="img/phone.png" alt="Téléphone" class="contact_icon">
+                        <span>WIP</span>
+                    </li>
+                    <li class="contact_item">
+                        <img src="img/email.png" alt="Email" class="contact_icon">
+                        <span>WIP</span>
+                    </li>
+                    <li class="contact_item">
+                        <img src="img/discord.ico" alt="Discord" class="contact_icon">
+                        <a href="https://discord.gg/bSSjQnNpFs" target="_blank">SlimePunk - Community</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="bottom_bar">
+            <div id="copyright">
+                © 2027 Slime Punk - Tous droits réservés
+            </div>
+            <div id="legal_links">
+                <a href="tos.html">Conditions générales d'utilisation</a>
+                <span>|</span>
+                <a href="private_policy.html">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
