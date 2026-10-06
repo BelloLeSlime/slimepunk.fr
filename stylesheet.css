@@ -137,7 +137,7 @@ ul {
 .project img {
     display: block;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 75%;
     height: auto;
     width: auto;
     border-radius: 20px;
@@ -209,14 +209,12 @@ ul {
 }
 
 /* WIP */
-
 #wip {
     text-align: center;
     padding: 101px;
 }
 
 /* Project pages */
-
 #project_stuff {
     padding: 20px;
 }
@@ -257,7 +255,6 @@ ul {
 }
 
 /* Footer */
-
 footer{
     background-color: #ffefa1;
     margin-top: 3%;
