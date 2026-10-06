@@ -131,7 +131,8 @@ ul {
 }
 
 .title_project {
-    margin-left: 5%;
+    text-align: center;
+    padding: 3%;
 }
 
 .project img {
@@ -151,7 +152,8 @@ ul {
 
 .completion_project {
     text-align: right;
-    padding-right: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 /* Team page */
@@ -396,3 +398,8 @@ footer{
     text-decoration: underline;
 }
 
+/* Random stuff */
+
+.underline {
+    text-decoration: underline;
+}
