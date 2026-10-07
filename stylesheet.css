@@ -298,11 +298,6 @@ footer{
     letter-spacing: 1px;
 }
 
-#quick_links {
-    background-color: #ffe900;
-    border-radius: 30px;
-}
-
 #quick-links-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -334,12 +329,6 @@ footer{
     .vertical_separator {
         display: none;
     }
-}
-
-#footer_contact {
-    background-color: #ffe900;
-    border-radius: 30px;
-    margin-right: 25%;
 }
 
 #contact_list {
