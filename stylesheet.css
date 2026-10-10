@@ -89,10 +89,9 @@ ul {
 }
 
 #pp {
-    max-height: 400px;
-    width: auto;
+    width: 140%;
     display: flex;
-    transform: translateY(-60px);
+    transform: translateY(-5%);
     filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.2));
 }
 
@@ -154,6 +153,26 @@ ul {
     padding-right: 20px;
     padding-bottom: 10px;
 }
+
+#play_button {
+    background-color: #ffe900;
+    transition: transform 0.2s ease;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3%;
+    border-radius: 30px;
+}
+
+#play_button>p {
+    text-align: center;
+    padding: 3%;
+    font-size: 50px;
+}
+
+#play_button:hover {
+    transform: scale(1.05);
+}
+
 
 /* Team page */
 
